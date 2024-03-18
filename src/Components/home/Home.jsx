@@ -213,7 +213,7 @@ export default function Home() {
          </div>
          <div className=''>
           <div className='rounded-lg overflow-hidden'>
-          <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735689/saree-1_mv6tic.webp" alt="" />
+          <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735684/lehenga-1_hrxw1c.webp" alt="" />
             </div>
             <h1 className='text-center font-bold'>Mustard Organza Hand Work Maskali Long Dress with Dupatta</h1>
           <p className='text-red-600 text-center font-semibold'>Rs.3,499.00 <del className='text-gray-500'>Rs.4,500.00</del></p>
