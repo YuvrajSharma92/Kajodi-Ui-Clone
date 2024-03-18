@@ -9,7 +9,7 @@ export default function Home() {
     <SwiperSlider/>
     {/*  */}
     <h1 className='py-8 text-center text-4xl font-bold cursor-pointer text-pink-600 underline'>Exclusive Indo-Lehenga Collection.</h1>
-    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 p-[30px]'>
+    <div className='grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 p-[30px]'>
          <div className=''>
           <div className='rounded-lg'>
             <img className='w-[100%] h-[100%] rounded-xl' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735670/kajodi-1_fmiexp.webp" alt="" />
