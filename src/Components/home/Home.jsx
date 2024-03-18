@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 // import Swiper from './Layout/Swiper'
+import { Link, useLocation } from 'react-router-dom';
 import SwiperSlider from '../Layout/Swiper'
+const location = useLocation().pathname;
 
 export default function Home() {
 
@@ -8,7 +10,14 @@ export default function Home() {
     <>
     <SwiperSlider/>
     {/*  */}
-    <h1 className='py-8 text-center text-4xl font-bold cursor-pointer text-pink-600 underline'>Exclusive Indo-Western Collection.</h1>
+    <h1 className='py-8 text-center text-4xl font-bold cursor-pointer text-pink-600 underline'>
+    <Link to={"/lehenga"}>
+          <a href="#" className={`block py-2 px-3 md:p-0 ${
+            location == "lehenga" ? "text-blue-600" :""
+          }`}> Exclusive Indo-Lehenga Collection.</a>
+        </Link>
+      Exclusive Indo-Lehenga Collection.
+      </h1>
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 p-[30px]'>
          <div className=''>
           <div className='rounded-lg'>

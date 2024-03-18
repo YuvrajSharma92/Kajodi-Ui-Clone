@@ -6,6 +6,7 @@ import Contact from './Components/extra/Contact'
 import Product from './Components/Product'
 import MyAccount from './Components/Login/MyAccount'
 import Register from './Components/Login/Register'
+import Lehenga from './Components/home/Lehenga'
 import NavBar from './NavBar'
 import Footer from './Footer'
 
@@ -22,6 +23,7 @@ export default function App() {
       <Route exact path ="/product" element ={<Product/>}/>
       <Route exact path ="/MyAccount" element ={<MyAccount/>}/> 
       <Route exact path = "/register" element ={<Register/>}/>
+      <Route exact path = "/lehenga" element ={<Lehenga/>}/>
     </Routes>
     <Footer/>
    </BrowserRouter>
