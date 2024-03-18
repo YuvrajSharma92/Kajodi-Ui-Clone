@@ -1,0 +1,226 @@
+import React, { useState } from 'react'
+// import Swiper from './Layout/Swiper'
+import SwiperSlider from '../Layout/Swiper'
+
+export default function Home() {
+
+  return (
+    <>
+    <SwiperSlider/>
+    {/*  */}
+    <h1 className='py-8 text-center text-4xl font-bold cursor-pointer text-pink-600 underline'>Exclusive Indo-Western Collection.</h1>
+    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 p-[30px]'>
+         <div className=''>
+          <div className='rounded-lg'>
+            <img className='w-[100%] h-[100%] rounded-xl' src="public/kajodi-1.webp" alt="" />
+          </div>
+         <h5 className='p-1 text-center font-bold'>Celina Green Dress</h5>
+         <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
+         </div>
+    
+         <div className=''>
+          <div className='rounded-lg'>
+         <img className='w-[100%] rounded-xl' src="public/kajodi-2.webp" alt="" />
+         </div>
+         <h5 className='p-1 text-center font-bold'>White Indo Long Gown Dress</h5>
+         <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'> Rs. 3,124.00</del></p>
+         </div>
+         <div className=''>
+          <div className='rounded-lg '>
+           <img className='w-[100%] rounded-xl' src="public/kajodi-3.webp" alt="" />
+            </div>
+            <h5 className='p-1 text-center font-bold'>Jesmin Cotton Tai-dye Long Dress..</h5>
+            <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
+         </div>
+         <div className=''>
+          <div className='rounded-lg'>
+          <img className='w-[100%] rounded-xl' src="public/kajodi-4.webp" alt="" />
+            </div>
+            <h5 className=' text-center font-bold'>Sparkly Black Long Dress.</h5>
+            <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
+         </div>
+     </div>
+     {/*  */}
+
+     {/*  */}
+    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 p-[30px]'>
+         <div className=''>
+          <div className='rounded-lg'>
+            <img className='w-[100%] h-[100%] rounded-xl' src="public/kajodi-5.webp" alt="" />
+          </div>
+         <h5 className='p-1 text-center font-bold'>Rangoli Chiffon Long Dress</h5>
+         <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
+         </div>
+    
+         <div className=''>
+          <div className='rounded-lg'>
+         <img className='w-[100%] rounded-xl' src="public/kajodi-6.webp" alt="" />
+         </div>
+         <h5 className='p-1 text-center font-bold'>Sunshine Green Floral Dress With Dupatta (2 Nos in 1 Set)</h5>
+         <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'> Rs. 3,124.00</del></p>
+         </div>
+         <div className=''>
+          <div className='rounded-lg '>
+           <img className='w-[100%] rounded-xl' src="public/kajodi-7.webp" alt="" />
+            </div>
+            <h5 className='p-1 text-center font-bold'>Joya Floral Organza Long Dress Set</h5>
+            <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
+         </div>
+         <div className=''>
+          <div className='rounded-lg'>
+        <img onMouseOver={true} className='w-[100%] rounded-xl' src={`public/kajodi-8.webp`}  alt="" />
+            </div>
+            <h5 className=' text-center font-bold'>Haldi Ceremony Traditional Dress Set.</h5>
+            <p className='p -1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
+         </div>
+     </div>
+     <div className='items-center justify-center flex text-white '>
+         <button className='bg-pink-600 p-3 px-8 rounded-xl hover:bg-white hover:border-solid border-[1px] border-pink-500 hover:font-bold hover:text-pink-500 duration-500'>View all</button>
+         </div>
+     {/*  */}
+
+
+     {/*  */}
+     <h1 className='text-pink-600 text-center text-4xl py-4 mt-7 font-bold underline'>Exquisite Kurta Range.</h1>
+     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 p-[30px]'>
+         <div className=''>
+          <div className='rounded-lg overflow-hidden'>
+            <img className='w-[100%] h-[100%] rounded-xl hover:scale-110 duration-300' src="public/kajodi-9.webp" alt="" />
+          </div>
+         <h5 className='p-1 text-center font-bold'>Rangoli Chiffon Long Dress</h5>
+         <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
+         </div>
+         <div className=''>
+          <div className='rounded-lg overflow-hidden'>
+         <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="public/kajodi-10.webp" alt="" />
+         </div>
+         <h5 className='p-1 text-center font-bold'>Sunshine Green Floral Dress With Dupatta (2 Nos in 1 Set)</h5>
+         <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'> Rs. 3,124.00</del></p>
+         </div>
+         <div className=''>
+          <div className='rounded-lg overflow-hidden '>
+           <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="public/kajodi-11.webp" alt="" />
+            </div>
+            <h5 className='p-1 text-center font-bold'>Joya Floral Organza Long Dress Set</h5>
+            <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
+         </div>
+         <div className=''>
+          <div className='rounded-lg overflow-hidden'>
+        <img onMouseOver={true} className='w-[100%] rounded-xl hover:scale-110 duration-300' src={`public/kajodi-12.webp`}  alt="" />
+            </div>
+            <h5 className=' text-center font-bold'>Haldi Ceremony Traditional Dress Set.</h5>
+            <p className='p -1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
+         </div>
+     </div>
+     <div className='items-center justify-center flex text-white '>
+         <button className='bg-pink-600 p-3 px-8 rounded-xl hover:bg-white hover:border-solid border-[1px] border-pink-500 hover:font-bold hover:text-pink-500 duration-500'>View all</button>
+         </div>
+         {/*  */}
+
+         {/*  */}
+    <h1 className='py-8 text-center text-4xl font-bold cursor-pointer text-pink-600 underline'>Traditional Sarees in Modern Designs..</h1>
+    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 p-[30px]'>
+         <div className=''>
+          <div className='rounded-lg'>
+            <img className='w-[100%] h-[100%] rounded-xl' src="public/kajodi-13.webp" alt="" />
+          </div>
+         <h5 className='p-1 text-center font-bold'>Pink Floral Chiffon Saree</h5>
+         <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
+         </div>
+         <div className=''>
+          <div className='rounded-lg'>
+         <img className='w-[100%] rounded-xl' src="public/kajodi-14.webp" alt="" />
+         </div>
+         <h5 className='p-1 text-center font-bold'>Panihari Draped Chiffon Saree Set</h5>
+         <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,500.00</span> <del className='font-normal'> Rs. 3,000.00</del></p>
+         </div>
+         <div className=''>
+          <div className='rounded-lg '>
+           <img className='w-[100%] rounded-xl' src="public/kajodi-15.webp" alt="" />
+            </div>
+            <h5 className='p-1 text-center font-bold'>Pink High Neck Cropped saree.</h5>
+            <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 3,000.00</span> <del className='font-normal'>Rs. 4,124.00</del></p>
+         </div>
+         <div className=''>
+          <div className='rounded-lg'>
+          <img className='w-[100%] rounded-xl' src="public/kajodi-16.webp" alt="" />
+            </div>
+            <h5 className=' text-center font-bold'>Yellow Haldi Ceremony Saree Set.</h5>
+            <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,399.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
+         </div>
+     </div>
+     {/*  */}
+
+     {/*  */}
+    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 p-[30px]'>
+         <div className=''>
+          <div className='rounded-lg'>
+            <img className='w-[100%] h-[100%] rounded-xl' src="public/kajodi-17.webp" alt="" />
+          </div>
+         <h5 className='p-1 text-center font-bold'>Pink Dark Kajodi Cotton Embroidery Kurta with Pant(2 Nos in 1 Set)</h5>
+         <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,000.00</span> <del className='font-normal'>Rs. 4,124.00</del></p>
+         </div>
+    
+         <div className=''>
+          <div className='rounded-lg'>
+         <img className='w-[100%] rounded-xl' src="public/kajodi-18.webp" alt="" />
+         </div>
+         <h5 className='p-1 text-center font-bold'>Blue Bandhej Kurta Set</h5>
+         <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 3,500.00</span> <del className='font-normal'> Rs. 5,124.00</del></p>
+         </div>
+         <div className=''>
+          <div className='rounded-lg '>
+           <img className='w-[100%] rounded-xl' src="public/kajodi-19.webp" alt="" />
+            </div>
+            <h5 className='p-1 text-center font-bold'>Mustard Organza Hand Work Maskali Long Dress with Dupatta</h5>
+            <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 4,124.00</del></p>
+         </div>
+         <div className=''>
+          <div className='rounded-lg'>
+        <img className='w-[100%] rounded-xl' src="public/kajodi-20.webp"  alt="" />
+            </div>
+            <h5 className=' text-center font-bold'>Kiya Organza Long Dress.</h5>
+            <p className='p -1 font-bold text-center'><span className='text-red-500'>Rs. 3,259.00</span> <del className='font-normal'>Rs. 4,124.00</del></p>
+         </div>
+     </div>
+     <div className='items-center justify-center flex text-white '>
+         <button className='bg-pink-600 p-3 px-8 rounded-xl hover:bg-white hover:border-solid border-[1px] border-pink-500 hover:font-bold hover:text-pink-500 duration-500'>View more</button>
+         </div>
+     {/*  */}      
+      <h1 className='py-8 text-center text-4xl font-bold cursor-pointer text-pink-600 underline'>Exclusive Indo-Western Collection.</h1>
+    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 p-[30px]'>
+         <div className=''>
+          <div className='rounded-xl overflow-hidden'>
+          <img src="public/lehenga-4.webp" alt="" className='w-[100%] rounded-xl hover:scale-110 duration-300' />
+          </div>
+          <h1 className='text-center font-bold'>Mustard Organza Hand Work Maskali Long Dress with Dupatta</h1>
+          <p className='text-red-600 text-center font-semibold' >Rs.3,499.00 <del className='text-gray-500'>Rs.4,500.00</del></p>
+         </div>
+    
+         <div className=''>
+          <div className='rounded-lg overflow-hidden'>
+         <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="public/lehenga-5.webp" alt="" />
+         </div>
+         <h1 className='text-center font-bold'>Mustard Organza Hand Work Maskali Long Dress with Dupatta</h1>
+          <p className='text-red-600 text-center font-semibold'>Rs.3,499.00 <del className='text-gray-500'>Rs.4,500.00</del></p>
+         </div>
+         <div className=''>
+          <div className='rounded-lg overflow-hidden'>
+           <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="public/lehenga-6.webp" alt="" />
+            </div>
+            <h1 className='text-center font-bold'>Mustard Organza Hand Work Maskali Long Dress with Dupatta</h1>
+          <p className='text-red-600 text-center font-semibold'>Rs.3,499.00 <del className='text-gray-500'>Rs.4,500.00</del></p>
+         </div>
+         <div className=''>
+          <div className='rounded-lg overflow-hidden'>
+          <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="public/lehenga-7.webp" alt="" />
+            </div>
+            <h1 className='text-center font-bold'>Mustard Organza Hand Work Maskali Long Dress with Dupatta</h1>
+          <p className='text-red-600 text-center font-semibold'>Rs.3,499.00 <del className='text-gray-500'>Rs.4,500.00</del></p>
+         </div>
+     </div>
+     {/*  */}
+
+   </>
+  )
+}
