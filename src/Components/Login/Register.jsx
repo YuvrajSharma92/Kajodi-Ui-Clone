@@ -6,7 +6,7 @@ export default function Register() {
         <h1 className='font-semibold text-4xl text-center mt-10'>Register</h1>
         <p className='text-center font-bold py-4'>Please fill in the information below:</p>
         <div className='flex justify-center items-center w-[100%]'> 
-     <div className='w-[30%]'>
+     <div className='w-[70%] sm:w-[40%] md:w-[30%]'>
      <input type="email" required="E-mail" placeholder='First name'  className='font-semibold p-2 rounded-2xl w-[100%] h-[47px] border-[1px] border-gray-500 outline-none m-4'/>
 
      <input type="text" placeholder='Last name' className='font-semibold p-2 rounded-2xl w-[100%] h-[47px] border-[1px] border-gray-500 outline-none m-4'/>

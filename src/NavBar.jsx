@@ -20,7 +20,7 @@ export default function NavBar() {
    }}
    >
 
-   <i className={`md:hidden text-[34px] bi bi-${
+   <i className={`md:hidden text-[34px] pr-5 bi bi-${
     open ? "x" : "list"
    }`}>
 

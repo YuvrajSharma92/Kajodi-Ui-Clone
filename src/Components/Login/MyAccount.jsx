@@ -10,7 +10,7 @@ export default function MyAccount() {
      <h1 className='text-center text-4xl font-bold mt-5'>Login</h1>
      <p className='text-center font-semibold p-4'>Enter your email and password to login:</p>
      <div className='flex justify-center items-center w-[100%]'> 
-     <div className='w-[30%]'>
+     <div className='w-[70%] sm:w-[40%] md:w-[30%]'>
      <input type="email" placeholder='E-mail' required className='font-semibold p-2 rounded-2xl w-[100%] h-[50px] border-[1px] border-gray-500 outline-none m-4'/>
 
      <input type="Password" placeholder='Password' className='font-semibold p-2 rounded-2xl w-[100%] h-[50px] border-[1px] border-gray-500 outline-none m-4'/>
