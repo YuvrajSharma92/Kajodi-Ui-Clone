@@ -12,7 +12,7 @@ export default function Home() {
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 p-[30px]'>
          <div className=''>
           <div className='rounded-lg'>
-            <img className='w-[100%] h-[100%] rounded-xl' src="public/kajodi-1.webp" alt="" />
+            <img className='w-[100%] h-[100%] rounded-xl' src="../../../public/kajodi-1.webp" alt="" />
           </div>
          <h5 className='p-1 text-center font-bold'>Celina Green Dress</h5>
          <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
