@@ -13,7 +13,7 @@ export default function NavBar() {
 </div>
 <nav class="bg-gray-100 py-2 sticky top-0 z-[4]">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
-        <img src="public/kajodi-logo.avif" className="h-16 pt-4" alt="" />
+        <img src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735683/kajodi-logo_sd1xhk.avif" className="h-16 pt-4" alt="" />
    <button
    onClick={()=>{
     setOpen(!open)

@@ -23,17 +23,17 @@ export default function Product() {
         </div>
         <div className=''>
           <div className='rounded-lg overflow-hidden'>
-            <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="saree-1.webp" alt="" />
+            <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735686/lehenga-3_ec9pth.webp" alt="" />
           </div>
         </div>
         <div className=''>
           <div className='rounded-lg overflow-hidden '>
-            <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="saree-2.webp" alt="" />
+            <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735684/lehenga-2_oeksa2.webp" alt="" />
           </div>
         </div>
         <div className=''>
           <div className='rounded-lg overflow-hidden'>
-            <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="saree-3.webp" alt="" />
+            <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735686/lehenga-4_utxv2f.webp" alt="" />
           </div>
         </div>
       </div>
@@ -58,17 +58,17 @@ export default function Product() {
         </div>
         <div className=''>
           <div className='rounded-lg overflow-hidden'>
-            <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="saree-4.webp" alt="" />
+            <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735690/saree-3_xfelcp.webp" alt="" />
           </div>
         </div>
         <div className=''>
           <div className='rounded-lg overflow-hidden '>
-            <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="saree-5.webp" alt="" />
+            <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735690/saree-2_gx1aaf.webp" alt="" />
           </div>
         </div>
         <div className=''>
           <div className='rounded-lg overflow-hidden'>
-            <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="saree-6.webp" alt="" />
+            <img className='w-[100%] rounded-xl hover:scale-110 duration-300' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735680/kajodi-18_oxkneb.webp" alt="" />
           </div>
         </div>
       </div>

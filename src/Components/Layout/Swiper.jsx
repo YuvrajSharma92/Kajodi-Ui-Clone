@@ -11,9 +11,9 @@ export default function SwiperSlider() {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide><img src="public/benner-1.webp" alt=""/></SwiperSlide>
-      <SwiperSlide><img src="public/benner-2.webp" alt=""/></SwiperSlide>
-      <SwiperSlide><img src="public/benner-3.webp" alt=""/></SwiperSlide>
+      <SwiperSlide><img src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735669/benner-1_ofclvm.webp" alt=""/></SwiperSlide>
+      <SwiperSlide><img src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735669/benner-2_hfkxou.webp" alt=""/></SwiperSlide>
+      <SwiperSlide><img src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735670/benner-3_twmljm.webp" alt=""/></SwiperSlide>
      
     </Swiper>
     </>
