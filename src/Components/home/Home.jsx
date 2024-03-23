@@ -9,37 +9,37 @@ export default function Home() {
     <SwiperSlider/>
     {/*  */}
     <h1 className='py-8 text-center text-4xl font-bold cursor-pointer text-pink-600 underline'>Exclusive Indo-Le Collection.</h1>
-    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 p-[30px]'>
-         <div className=''>
-          <div className='rounded-lg'>
-            <img className='w-[100%] h-[100%] rounded-xl' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735670/kajodi-1_fmiexp.webp" alt="" />
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 p-[30px]'>
+          <div className=''>
+            <div className='rounded-lg'>
+              <img className='w-[100%] h-[100%] rounded-xl' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735670/kajodi-1_fmiexp.webp" alt="" />
+            </div>
+          <h5 className='p-1 text-center font-bold'>Celina Green Dress</h5>
+          <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
           </div>
-         <h5 className='p-1 text-center font-bold'>Celina Green Dress</h5>
-         <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
-         </div>
-    
-         <div className=''>
-          <div className='rounded-lg'>
-         <img className='w-[100%] rounded-xl' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735670/kajodi-3_x5dzgm.webp" alt="" />
-         </div>
-         <h5 className='p-1 text-center font-bold'>White Indo Long Gown Dress</h5>
-         <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'> Rs. 3,124.00</del></p>
-         </div>
-         <div className=''>
-          <div className='rounded-lg '>
-           <img className='w-[100%] rounded-xl' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735670/kajodi-2_gfhast.webp" alt="" />
-            </div>
-            <h5 className='p-1 text-center font-bold'>Jesmin Cotton Tai-dye Long Dress..</h5>
-            <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
-         </div>
-         <div className=''>
-          <div className='rounded-lg'>
-          <img className='w-[100%] rounded-xl' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735671/kajodi-4_zqfwgc.webp" alt="" />
-            </div>
-            <h5 className=' text-center font-bold'>Sparkly Black Long Dress.</h5>
-            <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
-         </div>
-     </div>
+      
+          <div className=''>
+            <div className='rounded-lg'>
+          <img className='w-[100%] rounded-xl' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735670/kajodi-3_x5dzgm.webp" alt="" />
+          </div>
+          <h5 className='p-1 text-center font-bold'>White Indo Long Gown Dress</h5>
+          <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'> Rs. 3,124.00</del></p>
+          </div>
+          <div className=''>
+            <div className='rounded-lg '>
+            <img className='w-[100%] rounded-xl' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735670/kajodi-2_gfhast.webp" alt="" />
+              </div>
+              <h5 className='p-1 text-center font-bold'>Jesmin Cotton Tai-dye Long Dress..</h5>
+              <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
+          </div>
+          <div className=''>
+            <div className='rounded-lg'>
+            <img className='w-[100%] rounded-xl' src="https://res.cloudinary.com/dmvzvq5om/image/upload/v1710735671/kajodi-4_zqfwgc.webp" alt="" />
+              </div>
+              <h5 className=' text-center font-bold'>Sparkly Black Long Dress.</h5>
+              <p className='p-1 font-bold text-center'><span className='text-red-500'>Rs. 2,499.00</span> <del className='font-normal'>Rs. 3,124.00</del></p>
+          </div>
+      </div>
      {/*  */}
 
      {/*  */}
